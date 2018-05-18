@@ -32,4 +32,19 @@ Because i don't have the pre_trained modle from Imagenet, it's so hard to get it
  
 	 python3 yolo/train.py
  
-You can edite the parameters in yolo/config.py such as learning_rate, scale, threhold etc.
+You can edit the parameters in yolo/config.py such as learning_rate, scale, threhold etc.
+
+TEST
+
+Put the YOLO_small.ckpt into yolo/   and put the yolo-18000.data-00000-of-00001  downloaded by the link below into output/checkpoint/
+
+https://drive.google.com/file/d/1H_YTpHnRz-zVSlyFioSid0VSKRsdYH_W/view?usp=sharing
+
+There are two test modes, single image detection and real time video detection(A camera is needed). For detail, please read the code in yolo/test.py
+
+Single image detection:
+
+	cd  YOLO-reimplement-tensorflow
+
+	python3 yolo/test.py
+the result will exist in output/  
