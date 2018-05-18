@@ -26,10 +26,10 @@ Then， put the YOLO_small.ckpt into yolo/        Download it by this link :
 
 https://drive.google.com/file/d/1Qt4ePFWa43eC8O684jyZwJRHSNLvw9l9/view?usp=sharing
 
-Because i don't have the pre_trained modle from Imagenet, it's so hard to get it, i use the convolutional layers parameter in  YOLO_small.ckpt found from https://github.com/Mr-zihao/yolo_tensorflow ,Thanks!
+Because i don't have the pre_trained modle from Imagenet, it's so hard to get it, i use the convolutional layers parameter in  YOLO_small.ckpt found from https://github.com/Mr-zihao/yolo_tensorflow ,Thanks!  Then 
 
- cd  YOLO-reimplement-tensorflow            (enter the folder)
+	 cd  YOLO-reimplement-tensorflow            
  
- python3 yolo/train.py 			(start to train the modle) 
+	 python3 yolo/train.py
  
 You can edite the parameters in yolo/config.py such as learning_rate, scale, threhold etc.
