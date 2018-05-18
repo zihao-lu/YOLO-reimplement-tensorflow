@@ -34,9 +34,11 @@ Because i don't have the pre_trained modle from Imagenet, it's so hard to get it
  
 You can edit the parameters in yolo/config.py such as learning_rate, scale, threhold etc.
 
-TEST
+TEST:
 
-Put the YOLO_small.ckpt into yolo/   and put the yolo-18000.data-00000-of-00001  downloaded by the link below into output/checkpoint/
+Put the YOLO_small.ckpt into yolo/  and put the yolo-18000.data-00000-of-00001  into output/checkpoint/
+
+download it by the link below:
 
 https://drive.google.com/file/d/1H_YTpHnRz-zVSlyFioSid0VSKRsdYH_W/view?usp=sharing
 
@@ -47,4 +49,7 @@ Single image detection:
 	cd  YOLO-reimplement-tensorflow
 
 	python3 yolo/test.py
+	
 the result will exist in output/  
+
+
