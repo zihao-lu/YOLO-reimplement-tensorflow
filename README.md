@@ -3,7 +3,7 @@ yolov1  tensorflow python
 
 My Environment：
 
-	Ubuntu  16.04.3 LTS
+	Ubuntu          16.04.3 LTS
 
 	numpy           1.13.3
 
@@ -30,4 +30,4 @@ Because i don't have the pre_trained modle from Imagenet, it's so hard to get it
 
  cd  YOLO-reimplement-tensorflow            enter the folder
  
- python3 yolo/train.py                                        start to train the modle 
+ python3 yolo/train.py                      start to train the modle 
