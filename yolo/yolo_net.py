@@ -30,11 +30,6 @@ class Yolo_net(Network):
             self.total_loss=tf.losses.get_total_loss(False)
             tf.summary.scalar('total_loss',self.total_loss)
 
-
-
-
-
-
     def build_network(self):
         (self.feed('data')
          .cov(7, 7, 64, 2, 2, name='conv1_1',  init_from_modle=False, trainalble=True)
