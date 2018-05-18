@@ -14,14 +14,14 @@ LOG_DIR='./output/logdir/'
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
 WEIGHT_INIT_PATH='./yolo/YOLO_small.ckpt'
-WEIGHT_FILE='./output/checkpoint_2/yolo'
-RESTORE_PATH='./output/checkpoint_2/'
+WEIGHT_FILE='./output/checkpoint/yolo'
+RESTORE_PATH='./output/checkpoint/'
 if not os.path.exists(RESTORE_PATH):
     os.makedirs(RESTORE_PATH)
-#WEIGHT_FILE='./output/checkpoint/yolo'
-if not os.path.exists('./output/checkpoint_1/'):
-    os.makedirs('./output/checkpoint_1/')
-ITE_STEP=50000
+
+if not os.path.exists('./output/checkpoint/'):
+    os.makedirs('./output/checkpoint/')
+ITE_STEP=40000
 DISPLAY_STEP=10
 SAVE_STEP=1000
 LOG_STEP=100
