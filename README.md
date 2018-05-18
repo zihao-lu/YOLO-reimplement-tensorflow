@@ -30,4 +30,4 @@ Because i don't have the pre_trained modle from Imagenet, it's so hard to get it
 
  cd  YOLO-reimplement-tensorflow            enter the folder
  
- python3 yolo/train.py                      start to train the modle 
+ python3 yolo/train.py                                        start to train the modle 
