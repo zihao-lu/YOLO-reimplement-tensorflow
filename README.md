@@ -52,4 +52,4 @@ Single image detection:
 	
 the result will exist in output/  
 
-
+!image(https://github.com/Mr-zihao/YOLO-reimplement-tensorflow/blob/master/image/000001.jpg)
