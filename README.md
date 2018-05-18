@@ -20,9 +20,9 @@ If you want to train the modle with PASCAL VOC, please the download the dataset 
 
 https://pjreddie.com/projects/pascal-voc-dataset-mirror/
 
-I use PASCAL VOC2007. After download it, extract the data from the compressed file and change its name into  VOCtrainval_. Please modify the DATA_PATH in yolo/config.py according to your enviorment.
+I use PASCAL VOC2007. After download it, extract the data from the compressed file and change its name into  VOCtrainval_   Please modify the DATA_PATH in yolo/config.py according to your enviorment.
 
-Then， put the YOLO_small.ckpt into yolo/. Download it by this link :
+Then， put the YOLO_small.ckpt into yolo/        Download it by this link :
 
 https://drive.google.com/file/d/1Qt4ePFWa43eC8O684jyZwJRHSNLvw9l9/view?usp=sharing
 
